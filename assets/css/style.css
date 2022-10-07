@@ -1,19 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 :root {
 
-    /* colors*/
     --ig-color:HEX#078D8D RGB 7, 141, 141 ;
     --front-title: HEX #2EF3CC RGB 46, 243, 204;
-    --front-text: white;
+    --front-text: #078D8D;
+    --font-roboto: @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+}
+main p{
+    font-size: 17px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-    font-size: 22px;
-    background-color: var(--ig-color);
+    font-family: var(--font-roboto);
+    color: white;
 
+}
+
+title{
+    color:#2EF3CC
 }
 
 .container-all {
@@ -23,18 +34,50 @@ body {
     justify-content: center;
 }
 
-.container-logo 
-.img-logo {
+
+img-logo {
     display: flex;
     margin: 220px;
     justify-content: left;
 
 }
 
-.img-top{
+img-avatar3{
     position: absolute;
     padding-top: 38%;
     display: flex;
     flex-direction: row;
-    justify-content: safe;
+    justify-content: left-center;
+
+}
+
+img-avatar2{
+    position: absolute;
+    padding-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right-center;
+    
+}
+button{
+    justify-content: center;
+    flex-direction: column;
+    color:var(--front-title)
+
+
+}
+
+footer{
+    justify-items: center;
+    color: #2c9b9b;
+    
+}
+
+footer div {
+    text-align: center;
+    height: 100px;
+}
+footer label{
+    font-size: 25px;
+    font-weight: bold;
 }

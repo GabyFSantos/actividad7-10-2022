@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+
+    /* colors*/
+    --ig-color:HEX#078D8D RGB 7, 141, 141 ;
+    --front-title: HEX #2EF3CC RGB 46, 243, 204;
+    --front-text: white;
+
+}
+
+body {
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    font-size: 22px;
+    background-color: var(--ig-color);
+
+}
+
+.container-all {
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-logo 
+.img-logo {
+    display: flex;
+    margin: 220px;
+    justify-content: left;
+
+}
+
+.img-top{
+    position: absolute;
+    padding-top: 38%;
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+}
